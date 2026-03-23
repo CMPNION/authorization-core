@@ -1,0 +1,29 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Go build artifacts
+/bin
+/build
+/dist
+/tmp
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go tooling
+*.cover
+*.prof
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
